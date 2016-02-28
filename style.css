@@ -1,0 +1,160 @@
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+    background: #F2F1F2;
+}
+
+#header {
+    margin-top: 37px;
+    display: block;
+    background-image: url("/home/new/Pictures/kollektionen/universe/hubble_ultra_deep.jpg");
+    font-family: 'Merriweather', Impact, serif;
+    font-size: 17px;
+    color: white;
+    min-height: 270px;
+    position:  relative;
+    z-index: 1;
+}
+
+#menu ul,
+#menu li,
+#menu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font-family: 'Lato', sans-serif;
+}
+#menu {
+  border: 1px solid #133e40;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: auto;
+}
+#menu ul {
+  zoom: 1;
+  background: #36b0b6;
+  background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #2a8a8f));
+  background: -webkit-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -o-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -ms-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#menu ul:before {
+  content: '';
+  display: block;
+}
+#menu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#menu li {
+  float: left;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+}
+#menu li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+#menu li.active {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#menu li.active a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+#menu li:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#menu li:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+
+.inbox {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.main_left {
+    display: block;
+    min-height: 95%;
+    background: white;
+    border-right: 1px solid black;
+    margin-bottom: 0;
+}
+
+.main_right {
+    display: inline-block;
+    height: 95%;
+    background: white;
+}
+
+.footer {
+    font-family: 'Lato', Impact, serif;
+    color: white;
+    margin-top: 0px !important;
+    background: rgb(14, 10, 55);
+    min-height: 9%;
+}
+
+#footerh3 {
+    font-size: 23px;
+    padding: 5%;
+    padding-left: 7px;
+    position: relative;
+}
